@@ -1,0 +1,5 @@
+[
+	{ "keys": ["alt+s"], "command": "next_view_in_stack" },
+	{ "keys": ["alt+f"], "command": "prev_view_in_stack" },
+	{ "keys": ["alt+w"], "command": "close" },
+]
