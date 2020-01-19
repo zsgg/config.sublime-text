@@ -1,11 +1,36 @@
 { 
 	"browser": "C:/Program Files/Firefox Developer Edition/firefox.exe", 
 	"enable_autoreload": true, 
+    "enabled_parsers": ["markdown"],
 
-	"css": {
-        "markdown": ["default"],
-    },
-    // File must be of one type below
-    "markdown_filetypes": [".md"],
-    "allow_css_overrides": true,
+	"css": [
+		"D:/Wiki/public.zsgg.github.io/script/tistory/scss/_tistory-theme-default.css",
+    	"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css",
+    	"D:/Wiki/public.zsgg.github.io/script/tistory/scss/global.css"
+    ],
+
+    "js": [
+	    "https://code.jquery.com/jquery-1.11.3.min.js",
+	    "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js",
+	    "D:/Wiki/public.zsgg.github.io/script/tistory/js/global.js"
+	],
+
+
+
+	"markdown_extensions": [
+        {
+            "markdown.extensions.toc": {
+                "permalink": false
+            }
+        },
+        {
+        	"markdown.extensions.wikilinks": false
+        },
+        {
+            "pymdownx.magiclink": {   // Auto linkify URLs and email addresses
+                "repo_url_shortener": false,
+                "repo_url_shorthand": false
+            }
+        },
+    ],
 }
