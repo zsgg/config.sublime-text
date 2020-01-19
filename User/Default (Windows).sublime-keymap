@@ -11,4 +11,10 @@
 	{ "keys": ["alt+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
 	{ "keys": ["alt+shift+3"], "command": "move_to_group", "args": { "group": 2 } },
 	{ "keys": ["alt+shift+4"], "command": "move_to_group", "args": { "group": 3 } },
+
+ 	{ "keys": ["alt+m"], 
+ 		"command": "markdown_preview", 
+ 		"args": {"target": "browser", "parser": "github"}
+ 	}
+
 ]

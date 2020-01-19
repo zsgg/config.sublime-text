@@ -1,3 +1,13 @@
 {
-	"bootstrapped": true
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"LiveReload",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control"
+	]
 }

@@ -1,0 +1,11 @@
+{ 
+	"browser": "C:/Program Files/Firefox Developer Edition/firefox.exe", 
+	"enable_autoreload": true, 
+
+	"css": {
+        "markdown": ["default"],
+    },
+    // File must be of one type below
+    "markdown_filetypes": [".md"],
+    "allow_css_overrides": true,
+}
