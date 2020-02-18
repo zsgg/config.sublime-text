@@ -20,6 +20,5 @@
 	{ "keys": ["alt+v"], "command": "next_bookmark" },
 	{ "keys": ["alt+x"], "command": "prev_bookmark" },
 	{ "keys": ["alt+c"], "command": "toggle_bookmark" },
-	{ "keys": ["alt+z+x"], "command": "clear_bookmarks" },
 	{ "keys": ["alt+z"], "command": "select_all_bookmarks" },
 ]
